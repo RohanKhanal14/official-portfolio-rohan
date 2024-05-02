@@ -13,7 +13,7 @@ const Navbar = () => {
       </div>
       <ul className="app__navbar-links">
         <li>
-          <Link className="app__flex p-text" to="/">
+          <Link className="app__flex p-text" to="/home">
             Home
           </Link>
         </li>
@@ -50,7 +50,7 @@ const Navbar = () => {
             <HiX onClick={() => setToggle(false)} />
             <ul className="app__navbar-links">
               <li>
-                <Link className="app__flex p-text" to="/">
+                <Link className="app__flex p-text" to="/home">
                   Home
                 </Link>
               </li>
