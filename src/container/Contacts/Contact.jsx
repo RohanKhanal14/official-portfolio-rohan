@@ -3,7 +3,6 @@ import images from "../../constants/images";
 import "./Contact.scss";
 import SocialMedia from "../../components/SocialMedia";
 
-
 const Contact = () => {
   return (
     <>
@@ -15,7 +14,10 @@ const Contact = () => {
           <div className="col-md-5 col-sm-12 m-lg-auto">
             <form>
               <div className="segment">
-                <h1 className="head-text"> <span>CONTACT </span>ME</h1>
+                <h1 className="head-text">
+                  {" "}
+                  <span>CONTACT </span>ME
+                </h1>
               </div>
               <label>
                 <input type="text" placeholder="NAME" />
@@ -30,7 +32,7 @@ const Contact = () => {
                 <i className="icon ion-md-lock"></i> <span>SUBMIT</span>
               </button>
             </form>
-        <SocialMedia />
+            <SocialMedia />
           </div>
         </div>
       </div>

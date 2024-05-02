@@ -3,6 +3,7 @@ import "./Header.scss";
 import { motion } from "framer-motion";
 import { images } from "../../constants";
 import SocialMedia from "../../components/SocialMedia";
+import Resume from "../../assets/resume/Rohan khanal resume .pdf"
 
 const scaleVariants = {
   whileInView: {
@@ -33,7 +34,15 @@ const Header = () => {
           </div>
 
           <div className="tag-cmp app__flex">
-            <p className="p-text">MERN Developer</p>
+            <p className="p-text" style={{lineHeight:"0"}}>MERN Developer</p>
+            <a
+                className="content-download button-main button-scheme align-center p-text"
+                href={Resume}
+                download="Resume"
+                role="button"
+              >
+                Download CV
+              </a>
           </div>
             <SocialMedia />
         </div>
