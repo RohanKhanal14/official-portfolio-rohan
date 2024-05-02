@@ -1,5 +1,5 @@
 import Navbar from "./components/Navbar";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { About, Header, Skill, Work, Contact } from "./container";
 import "./App.scss";
 function App() {
