@@ -1,4 +1,3 @@
-$ruler: 16px;
 $color-red: #AE1100;
 $color-bg: #EBECF0;
 $color-shadow: #BABECC;
@@ -11,7 +10,7 @@ body{
 body, p, input, select, textarea, button {
     font-family: 'Montserrat', sans-serif;
     letter-spacing: -0.2px;
-    font-size: $ruler;
+    font-size: 16;
 }
 
 div, p {
@@ -21,8 +20,8 @@ div, p {
 
 
 form {
-  padding: $ruler;
-  width: $ruler*20;
+  padding: 16;
+  width: 16*20;
   margin: 0 auto;
 }
 
@@ -52,12 +51,12 @@ textarea {
 
 label {
   display: block;
-  margin-bottom: $ruler*1.5;
+  margin-bottom: 16*1.5;
   width: 100%;
 }
 
 textarea, input {
-  margin-right: $ruler/2;
+  margin-right: 16/2;
   box-shadow:  inset 2px 2px 5px $color-shadow, inset -5px -5px 10px $color-white;
   width: 100%;
   box-sizing: border-box;
@@ -87,19 +86,19 @@ button {
   }
   
   .icon {
-    margin-right: $ruler/2;
+    margin-right: 16/2;
   }
   
   &.unit {
-    border-radius: $ruler/2;
+    border-radius: 16/2;
     line-height: 0;
-    width: $ruler*3;
-    height: $ruler*3;
+    width: 16*3;
+    height: 16*3;
     display:inline-flex;
     justify-content: center;
     align-items:center;
-    margin: 0 $ruler/2;
-    font-size: $ruler*1.2;
+    margin: 0 16/2;
+    font-size: 16*1.2;
     
     .icon {
       margin-right: 0; 
