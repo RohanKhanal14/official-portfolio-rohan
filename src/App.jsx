@@ -7,7 +7,7 @@ function App() {
     <>
       <div className="app">
         <Router>
-          {/* <Navbar /> */}
+          <Navbar />
           <Routes>
             <Route path="/" element={<Header />} />
             <Route path="/about" element={<About />} />
