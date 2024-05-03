@@ -5,18 +5,18 @@ import "./App.scss";
 function App() {
   return (
     <>
-      <Router>
-        <div className="app">
-          <Navbar />
+      <div className="app">
+        <Router>
+          {/* <Navbar /> */}
           <Routes>
-            <Route path="/home" element={<Header />} />
+            <Route path="/" element={<Header />} />
             <Route path="/about" element={<About />} />
             <Route path="/skill" element={<Skill />} />
             <Route path="/work" element={<Work />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
-        </div>
-      </Router>
+        </Router>
+      </div>
     </>
   );
 }
